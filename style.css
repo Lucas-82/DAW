@@ -1,0 +1,130 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	text-align: black;
+	margin: 1%;
+}
+ol, ul {
+	list-style: none;
+	font-style: normal;
+	color: black;
+	margin: 15px 7px;
+}
+#navegacion {
+	font-style: normal;
+	color: black;
+	margin: 8px 8px;
+	font-weight: bold;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1, h2 {
+	font-size: 50px;
+	line-height: 60px;
+	margin-bottom: 19px;
+	color: black;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	background-color: rgb(212, 204, 204);
+}
+#rosario3 {
+	width: 15%;
+	margin: auto;
+	color: lightcoral;
+}
+img{
+	width: 30%;
+	margin: auto;
+}
+#imagen {
+	background-color: orange;
+}
+li{
+	color: black;
+	font-style: italic;
+	font-weight: bolder;
+}
+p, h3{
+	font-style: normal;
+	font-size: x-large;
+	margin: 8px;
+}
+h6 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+a {
+	font-style: oblique;
+	font-weight: 600;
+}
+body header nav button {
+	color: black;
+	background: transparent;
+	border: 2px solid;
+	border-radius: 6px;
+	cursor: pointer;
+}
+select {
+	color: black;
+	background: transparent;
+	border: 2px solid;
+	border-radius: 6px;
+	cursor: pointer;
+	margin: 20px;
+}
+#idClave {
+	color: black;
+	border: 2px solid;
+	border-color: orange;
+	border-radius: 9px;
+}
+#div1 {
+	color: black;
+	font-weight: bold;
+	font-style: normal;
+	background-color: orange;
+}
+main button {
+	margin-left: 600px;
+}
