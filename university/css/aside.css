@@ -1,0 +1,36 @@
+aside{ 
+    font-size:large;
+    background-color: lightgray;
+    width: 20%;
+    padding: 10px;
+    line-height: 25px;
+    margin: 5px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+aside h2 {
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 40px;
+    font-style: italic;
+    text-align: center;
+}
+aside h3 {
+    font-size: 25pxpx;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+
+}
+aside h4{ 
+    font-size: 20px;
+    font-style: oblique;
+    text-align: center;
+
+
+}
+aside h5 {
+    font-size: 18px;
+}
