@@ -18,3 +18,11 @@ footer figure img {
     align-items: center;
     width: 25em;
 }
+
+@media screen and (max-width:1162px){
+    footer {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}

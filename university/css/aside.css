@@ -1,13 +1,12 @@
 aside{ 
     font-size:large;
-    background-color: lightgray;
-    width: 20%;
+    background-color: rgba(211, 211, 211, 0.511);
+    width: 30%;
     padding: 10px;
-    line-height: 25px;
+    line-height: 35px;
     margin: 5px 2px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }
 
 aside h2 {
@@ -16,21 +15,31 @@ aside h2 {
     line-height: 40px;
     font-style: italic;
     text-align: center;
+    margin: 30px;
 }
 aside h3 {
-    font-size: 25pxpx;
+    font-size: 25px;
     font-weight: bold;
     margin: 10px;
     text-align: center;
+    margin: 30px;
 
 }
 aside h4{ 
     font-size: 20px;
     font-style: oblique;
     text-align: center;
-
-
+    margin: 30px;
 }
-aside h5 {
-    font-size: 18px;
+aside p {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+@media screen and (max-width:1162px){
+    aside {
+        display: block;
+        width: 100%;
+    }
 }

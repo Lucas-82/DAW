@@ -2,7 +2,7 @@
 main {
     background-color: transparent;
     font-family: Arial, Helvetica, sans-serif;
-    width: 80%;
+    width: 70%;
     margin: 3px;
     display: flex;
     flex-direction: column;
@@ -15,13 +15,11 @@ main h1 {
     text-align: center;
     margin: 30px 20px 0px;
     padding: 20px;
-    background-color: transparent;
 }
 
 p{
     font-size: 25px;
     font-weight: bold;
-    background-color: transparent;
     margin: 40px;
     line-height: 50px;
 }
@@ -44,6 +42,7 @@ main figure {
 
 main figure img {
     width: 100%;
+    height: auto;
     align-items: center;
 }
 
@@ -59,3 +58,9 @@ body div div {
 
 
 
+@media screen and (max-width:1162px){
+    main{
+        display: block;
+        width: 100%;
+    }
+}
