@@ -4,7 +4,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 70em;
+    margin-top: 65em;
 }
 footer div {
     align-items: center;
@@ -19,10 +19,9 @@ footer figure img {
     width: 25em;
 }
 
-@media screen and (max-width:1162px){
+
+@media (min-width: 1023px) {
     footer {
-        display: block;
-        width: 100%;
-        height: auto;
+        background-color: beige;
     }
 }

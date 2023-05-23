@@ -11,18 +11,11 @@ body {
 }
 
 
-@media screen and (max-width:1452px){
+
+@media (max-width: 1460px) {
     .contenedor {
+        flex-direction: column;
+        align-items: center;
         width: 100%;
-    }
-}
-
-
-@media screen and (max-width:1162px){
-    body{
-        display: block;
-    }
-    .contenedor{
-        display: block;
     }
 }

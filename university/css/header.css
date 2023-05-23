@@ -19,14 +19,18 @@ nav {
     justify-content: space-around;
 }
 
-body div header nav ul {
+a{
+    color: black;
+}
+
+header nav ul {
     font-weight: bolder;
     display: flex;
     justify-content: flex-end;
 
 }
 
-body div header nav ul li {
+nav ul li {
     background-color: whitesmoke;
     padding: 20px;
     border-radius: 50%;
@@ -39,9 +43,24 @@ body div header nav ul li {
     font-size: smaller;
 }
 
+ul li:hover{
+    background-color: white;
+}
 
 
-@media screen and (max-width:1162px){
+@media (max-width: 1460px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 8%;
+    }
+    figure img {
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1213px){
     nav {
         display: none;
     }

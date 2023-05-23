@@ -37,9 +37,8 @@ aside p {
     line-height: 30px;
 }
 
-@media screen and (max-width:1162px){
+@media (max-width: 1460px) {
     aside {
-        display: block;
         width: 100%;
     }
 }
