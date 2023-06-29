@@ -1,0 +1,56 @@
+main h1 {
+    background-color: rgba(211, 211, 211, 0.511);
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    padding: 5%;
+    
+}
+main h2 {
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+main p {
+    text-align: center;
+    font-size: small;
+    margin: 10px auto 20px; 
+}
+.contenedor-datos {
+    width: 100%;
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    font-weight: 700;
+    margin: 10px 10px 0px;
+    border: none;
+}
+input {
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 80%;
+    height: 20px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+button{
+    float: right;
+    border:none;
+    height: 30px;
+    width: 20%;
+    background-color: rgba(211, 211, 211, 0.511);
+    font-size: 20px;
+    margin: 30px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+}
+
+@media (min-width: 1024px){
+    .contenedor-datos {
+        width: 50%;
+    }
+
+}

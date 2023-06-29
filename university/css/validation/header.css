@@ -1,0 +1,17 @@
+
+header {
+    width: 100%;
+
+}
+
+header figure {
+    width: 100%;
+}
+
+header figure img {
+    width: 200px;
+}
+
+nav {
+    display: none;
+}

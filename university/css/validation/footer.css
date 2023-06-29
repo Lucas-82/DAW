@@ -1,10 +1,9 @@
-
 footer {
     background-color: transparent;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 65em;
+    margin-top: 40em;
 }
 footer div {
     align-items: center;
@@ -17,11 +16,4 @@ footer div {
 footer figure img {
     align-items: center;
     width: 25em;
-}
-
-
-@media (min-width: 1023px) {
-    footer {
-        background-color: beige;
-    }
 }
