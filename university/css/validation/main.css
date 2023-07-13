@@ -28,7 +28,7 @@ label {
     margin: 10px 10px 0px;
     border: none;
 }
-input {
+.contenedor-datos input {
     border: none;
     border-bottom: 1px solid #000000;
     width: 80%;
@@ -36,7 +36,7 @@ input {
     font-size: 15px;
     margin-left: 10px;
 }
-button{
+.boton input{
     float: right;
     border:none;
     height: 30px;
