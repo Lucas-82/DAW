@@ -30,6 +30,14 @@ header div {
     margin-bottom: 20px;
   }
 
+.columna2 input{
+    width: 20vw;
+    height: 25px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: 400;
+}
 
 button {
     margin: 10px;
@@ -39,6 +47,8 @@ button {
     border: transparent;
     color: rgb(81, 63, 63);
     cursor: pointer;
+    font-weight: 400;
+    color: white;
 }
 div img {
     border-radius: 10%; 
